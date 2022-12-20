@@ -301,9 +301,8 @@ header{
         padding-top: 20px;
     }
     .two_one_text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
+        text-align: center;
         width: 300px;
     }
     .two_two_text{
@@ -314,8 +313,7 @@ header{
     }
     .two_one_text p{
     }
-    .two_two_text p{
-    }
+    
     .two_two_img{
         padding-top: 20px;
     }
@@ -326,11 +324,15 @@ header{
         display: flex;
         flex-direction: column-reverse;
     }
-
+    .one_text{
+        width: 300px;
+    }
     .one_text h1{
         font-size: 20px;
     }
     .one_text p{
+        display: flex;
+        justify-content: center;
         width: 300px;
         font-size: 16px;
     }
