@@ -180,6 +180,7 @@ header{
 
 .three {
     padding-top: 80px;
+    padding-bottom: 40px;
     background-color: #EBEBEB;
 }
 .three_text {
@@ -239,12 +240,53 @@ header{
 }
 
 
+.four{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+.four h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.container {
+}
+.four_wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+.four_block {
+    margin: 10px;
+    width: 250px;
+}
+.four_block img{
+    box-shadow: 0px 0px 40px #00000033;
+}
+.four_block h2 {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.four_block p {
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
 
 
 
 @media (max-width:1100px) {
     .three_block{
         width: 300px;
+    }
+    .four_wrap{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 /* */
