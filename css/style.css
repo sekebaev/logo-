@@ -241,6 +241,7 @@ header{
 
 
 .four{
+    padding-bottom: 80px;
     font-family: 'Roboto', sans-serif;
     color: #333333;
 }
@@ -273,6 +274,20 @@ header{
     padding-top: 10px;
     font-size: 15px;
     line-height: 24px;
+}
+footer{
+
+
+    background-color: #111111;
+    height: 50px;
+}
+
+footer p{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
 }
 
 
